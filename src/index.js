@@ -355,7 +355,7 @@ class PopoverTooltip extends React.PureComponent<Props, State> {
             ],
           }}>
             <TouchableOpacity
-              onPress={this.openModal}
+              onPress={this.toggleModal}
               activeOpacity={1.0}
             >
               {this.props.buttonComponent}
